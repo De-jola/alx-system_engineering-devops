@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -empty -print|tr "./" " "
+find * -empty -print|tr "/" "\n"
