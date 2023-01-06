@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Loops over Best School and replaces the 4th and 8th iteration
+i=0
+while((i<10));
+do
+    if ((i == 3))
+    then
+        echo "bad luck"
+	((i++))
+    elif ((i == 7))
+    then
+        echo "good luck"
+	((i++))
+    else
+        echo "Best School"
+	((i++))
+    fi
+done
